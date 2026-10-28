@@ -1,5 +1,6 @@
 import React from 'react';
 import { DesignSample } from '../data/portfolioData';
+import { resolveAssetUrl } from '../utils/assetUrl';
 
 interface DesignMockupStageProps {
   sample: DesignSample;
@@ -7,16 +8,17 @@ interface DesignMockupStageProps {
 }
 
 export const DesignMockupStage: React.FC<DesignMockupStageProps> = ({
-  sample,
+  sample: rawSample,
   allSamples,
 }) => {
-  const baseUrl = (import.meta.env?.BASE_URL || '/').replace(/\/$/, '');
+  const sample: DesignSample = {
+    ...rawSample,
+    image: resolveAssetUrl(rawSample.image),
+  };
+
   const findSampleImage = (id: string, fallback: string) => {
-    const resolvedFallback =
-      baseUrl && baseUrl !== '.' && fallback.startsWith('/assets/')
-        ? `${baseUrl}${fallback}`
-        : fallback;
-    return allSamples.find((s) => s.id === id)?.image || resolvedFallback;
+    const found = allSamples.find((s) => s.id === id)?.image;
+    return resolveAssetUrl(found || fallback);
   };
 
   // Companion images for paired multi-surface mockups

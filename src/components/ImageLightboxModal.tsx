@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { X, ZoomIn, Download, ExternalLink } from 'lucide-react';
+import { resolveAssetUrl } from '../utils/assetUrl';
 
 interface ImageLightboxModalProps {
   isOpen: boolean;
@@ -18,6 +19,8 @@ export const ImageLightboxModal: React.FC<ImageLightboxModalProps> = ({
   caption,
   category,
 }) => {
+  const resolvedImageUrl = resolveAssetUrl(imageUrl);
+
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
@@ -78,16 +81,16 @@ export const ImageLightboxModal: React.FC<ImageLightboxModalProps> = ({
         {/* Media view container */}
         <div
           className={`relative flex-1 min-h-[300px] max-h-[72vh] flex items-center justify-center p-4 sm:p-8 overflow-auto ${
-            imageUrl.toLowerCase().includes('header') || title.toLowerCase().includes('header')
+            resolvedImageUrl.toLowerCase().includes('header') || title.toLowerCase().includes('header')
               ? 'bg-white'
               : 'bg-zinc-950/70'
           }`}
         >
           <img
-            src={imageUrl}
+            src={resolvedImageUrl}
             alt={title}
             className={`max-h-[68vh] max-w-full object-contain select-none ${
-              imageUrl.toLowerCase().includes('header') || title.toLowerCase().includes('header')
+              resolvedImageUrl.toLowerCase().includes('header') || title.toLowerCase().includes('header')
                 ? 'bg-white p-6 rounded-lg border border-zinc-200/80 shadow-2xs'
                 : 'rounded-md'
             }`}

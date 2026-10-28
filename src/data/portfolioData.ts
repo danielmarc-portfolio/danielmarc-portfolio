@@ -7,6 +7,8 @@
  * 3. All changes will automatically reflect across the entire portfolio website.
  */
 
+import { resolveAssetUrl } from '../utils/assetUrl';
+
 export interface ITTechTool {
   name: string;
   category: string;
@@ -1436,24 +1438,29 @@ export const workPrinciples: WorkPrinciple[] = [
   },
 ];
 
-// Automatically prefix root-relative '/assets/' paths with Vite's BASE_URL when deployed to a subpath (e.g., '/danielmarc-portfolio/')
-const baseUrl = (import.meta.env?.BASE_URL || '/').replace(/\/$/, '');
-if (baseUrl && baseUrl !== '.') {
-  const resolveAssetPath = (p: string) => (p.startsWith('/assets/') ? `${baseUrl}${p}` : p);
-  itProjects.forEach((proj) => {
-    proj.image = resolveAssetPath(proj.image);
-    proj.additionalImages?.forEach((img) => {
-      img.image = resolveAssetPath(img.image);
-    });
-    if (proj.manualFormUsed) {
-      proj.manualFormUsed.image = resolveAssetPath(proj.manualFormUsed.image);
-    }
+// Normalize all root-relative '/assets/' paths across all project, design sample, and realistic mockup collections
+itProjects.forEach((proj) => {
+  proj.image = resolveAssetUrl(proj.image);
+  proj.additionalImages?.forEach((img) => {
+    img.image = resolveAssetUrl(img.image);
   });
-  designSamples.forEach((sample) => {
-    sample.image = resolveAssetPath(sample.image);
+  if (proj.manualFormUsed) {
+    proj.manualFormUsed.image = resolveAssetUrl(proj.manualFormUsed.image);
+  }
+});
+
+[
+  logoRealisticMockupSamples,
+  companyProfileRealisticMockupSamples,
+  advertisementRealisticMockupSamples,
+  designSamples,
+].forEach((collection) => {
+  collection.forEach((sample) => {
+    sample.image = resolveAssetUrl(sample.image);
     sample.additionalImages?.forEach((img) => {
-      img.image = resolveAssetPath(img.image);
+      img.image = resolveAssetUrl(img.image);
     });
   });
-}
+});
+
 

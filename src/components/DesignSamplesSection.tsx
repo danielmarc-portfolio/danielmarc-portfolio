@@ -14,6 +14,7 @@ import {
   DesignSample,
 } from '../data/portfolioData';
 import { DesignMockupStage } from './DesignMockupStage';
+import { resolveAssetUrl } from '../utils/assetUrl';
 
 interface DesignSamplesSectionProps {
   onInspectImage: (image: string, title: string, caption?: string, category?: string) => void;
@@ -235,8 +236,8 @@ export const DesignSamplesSection: React.FC<DesignSamplesSectionProps> = ({
                 /* Direct Photo / Flat Source File Presentation */
                 <div className="relative max-w-full flex flex-col items-center justify-center py-4">
                   <img
-                    key={currentSample.image}
-                    src={currentSample.image}
+                    key={resolveAssetUrl(currentSample.image)}
+                    src={resolveAssetUrl(currentSample.image)}
                     alt={currentSample.title}
                     className="max-h-[480px] sm:max-h-[560px] w-auto max-w-full object-contain rounded-md shadow-lg border border-zinc-200/90 bg-white transition-transform duration-200 group-hover:scale-[1.005]"
                     referrerPolicy="no-referrer"
@@ -268,7 +269,7 @@ export const DesignSamplesSection: React.FC<DesignSamplesSectionProps> = ({
                 type="button"
                 onClick={() =>
                   onInspectImage(
-                    currentSample.image,
+                    resolveAssetUrl(currentSample.image),
                     currentSample.title,
                     undefined,
                     currentSample.category
@@ -304,7 +305,7 @@ export const DesignSamplesSection: React.FC<DesignSamplesSectionProps> = ({
                   >
                     <div className="w-full h-16 rounded overflow-hidden bg-white shrink-0 border border-zinc-200/60 flex items-center justify-center p-0.5">
                       <img
-                        src={sample.image}
+                        src={resolveAssetUrl(sample.image)}
                         alt={sample.title}
                         className="w-full h-full object-contain"
                         referrerPolicy="no-referrer"
