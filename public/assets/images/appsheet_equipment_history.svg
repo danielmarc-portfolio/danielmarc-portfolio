@@ -1,0 +1,346 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="100%" height="100%">
+  <defs>
+    <filter id="table-shadow-eh" x="-2%" y="-2%" width="104%" height="106%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#0F172A" flood-opacity="0.05"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1600" height="900" fill="#F4F6F8"/>
+
+  <!-- Browser Chrome Top Bar -->
+  <rect x="0" y="0" width="1600" height="42" fill="#E8ECEF" stroke="#D3D9DE" stroke-width="1"/>
+  <circle cx="24" cy="21" r="5.5" fill="#ED6A5E" stroke="#CF5347" stroke-width="0.5"/>
+  <circle cx="42" cy="21" r="5.5" fill="#F5BF4F" stroke="#D7A037" stroke-width="0.5"/>
+  <circle cx="60" cy="21" r="5.5" fill="#62C554" stroke="#48A73C" stroke-width="0.5"/>
+
+  <!-- Active Browser Tab -->
+  <path d="M 86 42 L 96 12 Q 100 8 106 8 L 360 8 Q 366 8 370 12 L 380 42 Z" fill="#FFFFFF"/>
+  <rect x="108" y="16" width="16" height="16" rx="3" fill="#155D27"/>
+  <path d="M 112 24 L 115 19 L 120 27 L 115 25 Z" fill="#FFFFFF"/>
+  <text x="132" y="28" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Equipment History - AppSheet</text>
+  <text x="358" y="27" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" fill="#94A3B8">×</text>
+
+  <!-- URL Bar -->
+  <rect x="400" y="7" width="830" height="28" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <path d="M 414 16 C 414 14.5 415 13.5 416.5 13.5 C 418 13.5 419 14.5 419 16 L 419 17.5 L 414 17.5 Z M 412.5 17.5 L 420.5 17.5 L 420.5 24 L 412.5 24 Z" fill="#64748B"/>
+  <text x="428" y="26" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, monospace" font-size="12" fill="#475569">
+    <tspan fill="#155D27" font-weight="600">https://</tspan><tspan fill="#0F172A">www.appsheet.com/start/</tspan><tspan fill="#155D27" font-weight="500">it-maintenance-management</tspan><tspan fill="#64748B">#page=Equipment_History</tspan>
+  </text>
+  <rect x="1140" y="12" width="76" height="18" rx="4" fill="#E8F5E9"/>
+  <text x="1148" y="25" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="10" font-weight="700" fill="#155D27">SSL SECURE</text>
+
+  <!-- AppSheet Header -->
+  <rect x="0" y="42" width="1600" height="64" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <g transform="translate(24, 52)">
+    <rect x="0" y="0" width="44" height="44" rx="8" fill="#155D27"/>
+    <path d="M 12 28 L 22 14 L 32 28 L 27 28 L 22 20 L 17 28 Z" fill="#A3E635"/>
+    <circle cx="22" cy="14" r="3.5" fill="#FFFFFF"/>
+    <circle cx="12" cy="28" r="3" fill="#FFFFFF"/>
+    <circle cx="32" cy="28" r="3" fill="#FFFFFF"/>
+    <text x="56" y="22" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="18" font-weight="800" fill="#0F172A">
+      IT Maintenance Management
+    </text>
+    <text x="56" y="38" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-weight="600" fill="#155D27" letter-spacing="0.04em">
+      EQUIPMENT HISTORY · AUTOMATED SERVICE LEDGER · ISO 9001:2015
+    </text>
+  </g>
+
+  <!-- Header Right -->
+  <g transform="translate(1120, 56)">
+    <rect x="0" y="4" width="148" height="30" rx="15" fill="#F0FDF4" stroke="#86EFAC" stroke-width="1"/>
+    <circle cx="14" cy="19" r="4.5" fill="#16A34A"/>
+    <path d="M 24 16 L 27 19 L 32 14" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="36" y="23" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#166534">Sheets Synced</text>
+
+    <rect x="160" y="2" width="160" height="34" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="174" y="23" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" fill="#64748B">🔍 Search history...</text>
+
+    <circle cx="348" cy="19" r="17" fill="#155D27"/>
+    <text x="348" y="24" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">DT</text>
+    <text x="374" y="18" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Daniel Turnos</text>
+    <text x="374" y="31" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-weight="500" fill="#64748B">IT Administrator</text>
+  </g>
+
+  <!-- Navigation Sidebar -->
+  <rect x="0" y="106" width="250" height="794" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="24" y="138" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-weight="700" fill="#94A3B8" letter-spacing="0.08em">
+    MAIN NAVIGATION
+  </text>
+
+  <!-- Nav Item 1: Job Order Request -->
+  <g transform="translate(14, 154)">
+    <rect x="0" y="0" width="222" height="42" rx="8" fill="transparent"/>
+    <rect x="12" y="11" width="20" height="20" rx="4" fill="#F1F5F9"/>
+    <path d="M 17 21 L 27 21 M 17 17 L 27 17 M 17 25 L 23 25" stroke="#475569" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="42" y="26" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#334155">Job Order Request</text>
+  </g>
+
+  <!-- Nav Item 2: Job Orders -->
+  <g transform="translate(14, 204)">
+    <rect x="0" y="0" width="222" height="42" rx="8" fill="transparent"/>
+    <rect x="12" y="11" width="20" height="20" rx="4" fill="#F1F5F9"/>
+    <rect x="16" y="15" width="12" height="12" rx="2" fill="none" stroke="#475569" stroke-width="1.8"/>
+    <text x="42" y="26" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#334155">Job Orders</text>
+    <rect x="180" y="13" width="28" height="18" rx="9" fill="#FEF3C7"/>
+    <text x="194" y="26" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, monospace" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="middle">12</text>
+  </g>
+
+  <!-- Nav Item 3: Equipment History (ACTIVE) -->
+  <g transform="translate(14, 254)">
+    <rect x="0" y="0" width="222" height="46" rx="8" fill="#E8F5E9" stroke="#A7F3D0" stroke-width="1"/>
+    <rect x="0" y="6" width="4" height="34" rx="2" fill="#155D27"/>
+    <rect x="12" y="11" width="24" height="24" rx="5" fill="#155D27"/>
+    <path d="M 18 19 A 5 5 0 1 1 23 27 M 20 23 L 23 26 L 27 21" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+    <text x="46" y="28" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="14" font-weight="700" fill="#0D652D">Equipment History</text>
+    <rect x="180" y="14" width="28" height="18" rx="9" fill="#155D27"/>
+    <text x="194" y="27" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, monospace" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">48</text>
+  </g>
+
+  <!-- Nav Item 4: IT Asset Inventory -->
+  <g transform="translate(14, 308)">
+    <rect x="0" y="0" width="222" height="42" rx="8" fill="transparent"/>
+    <rect x="12" y="11" width="20" height="20" rx="4" fill="#F1F5F9"/>
+    <rect x="16" y="15" width="12" height="10" rx="1.5" fill="none" stroke="#475569" stroke-width="1.5"/>
+    <text x="42" y="26" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#334155">IT Asset Inventory</text>
+  </g>
+
+  <!-- Nav Item 5: Preventive Maintenance -->
+  <g transform="translate(14, 358)">
+    <rect x="0" y="0" width="222" height="42" rx="8" fill="transparent"/>
+    <rect x="12" y="11" width="20" height="20" rx="4" fill="#F1F5F9"/>
+    <line x1="16" y1="19" x2="28" y2="19" stroke="#475569" stroke-width="1.5"/>
+    <text x="42" y="26" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#334155">Preventive Maintenance</text>
+  </g>
+
+  <!-- Sidebar Bottom Information -->
+  <g transform="translate(16, 740)">
+    <rect x="0" y="0" width="218" height="136" rx="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="14" y="22" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="10" font-weight="700" fill="#64748B" letter-spacing="0.06em">AUTOMATION STATUS</text>
+    <g transform="translate(14, 32)">
+      <rect x="0" y="0" width="20" height="20" rx="4" fill="#0EA5E9"/>
+      <path d="M 4 10 L 10 16 L 16 4" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+      <text x="28" y="14" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#0F172A">AppSheet Bot</text>
+    </g>
+    <text x="14" y="74" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="10.5" fill="#475569">
+      On Job Order: Completed
+    </text>
+    <text x="14" y="90" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="10" fill="#155D27" font-weight="600">
+      Auto-appends to Eq History
+    </text>
+    <text x="14" y="116" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9.5" fill="#94A3B8">
+      JobOrderID Deduplication
+    </text>
+  </g>
+
+  <!-- Main Content Area -->
+  <g transform="translate(274, 126)">
+    <!-- Top Action and Filter Bar -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="24" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="24" font-weight="800" fill="#0F172A">
+        Equipment History Management
+      </text>
+      <text x="0" y="46" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="500" fill="#64748B">
+        Centralized master hardware reliability ledger linking completed Job Orders with physical assets.
+      </text>
+
+      <!-- Right Action Controls -->
+      <g transform="translate(860, 0)">
+        <rect x="0" y="6" width="170" height="36" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+        <text x="16" y="28" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" fill="#334155">Filter: All Hardware ▾</text>
+
+        <rect x="180" y="6" width="190" height="36" rx="6" fill="#155D27"/>
+        <text x="200" y="29" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">+ Add Service Record</text>
+      </g>
+    </g>
+
+    <!-- Table Container -->
+    <g transform="translate(0, 72)" filter="url(#table-shadow-eh)">
+      <rect x="0" y="0" width="1300" height="650" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+
+      <!-- Table Header -->
+      <rect x="0" y="0" width="1300" height="46" rx="10" fill="#F8FAFC"/>
+      <rect x="0" y="36" width="1300" height="10" fill="#F8FAFC"/>
+      <line x1="0" y1="46" x2="1300" y2="46" stroke="#E2E8F0" stroke-width="1.2"/>
+
+      <text x="24" y="28" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#475569">HISTORY ID</text>
+      <text x="140" y="28" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#475569">EQUIP TAG</text>
+      <text x="240" y="28" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#475569">EQUIPMENT TYPE</text>
+      <text x="390" y="28" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#475569">SERVICE DATE</text>
+      <text x="500" y="28" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#475569">JOB ORDER REF</text>
+      <text x="640" y="28" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#475569">ISSUE REPORTED</text>
+      <text x="830" y="28" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#475569">PARTS REPLACED</text>
+      <text x="1010" y="28" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#475569">TECH / COST</text>
+      <text x="1170" y="28" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#475569">STATUS</text>
+
+      <!-- Row 1: SYS-001 -->
+      <g transform="translate(0, 46)">
+        <rect x="0" y="0" width="1300" height="74" fill="#FFFFFF"/>
+        <line x1="0" y1="74" x2="1300" y2="74" stroke="#F1F5F9" stroke-width="1"/>
+        <text x="24" y="42" font-family="monospace" font-size="12" font-weight="700" fill="#0D9488">EH-2024-0089</text>
+        
+        <rect x="140" y="25" width="70" height="26" rx="5" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+        <text x="175" y="42" font-family="monospace" font-size="11.5" font-weight="700" fill="#1D4ED8" text-anchor="middle">SYS-001</text>
+        
+        <text x="240" y="36" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="600" fill="#0F172A">Workstation PC</text>
+        <text x="240" y="52" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" fill="#64748B">Dell OptiPlex 7090</text>
+
+        <text x="390" y="42" font-family="monospace" font-size="12" fill="#334155">2024-10-12</text>
+        
+        <rect x="500" y="25" width="95" height="26" rx="5" fill="#FEF3C7" stroke="#FDE68A" stroke-width="1"/>
+        <text x="547" y="42" font-family="monospace" font-size="11" font-weight="700" fill="#B45309" text-anchor="middle">JO-2024-089</text>
+
+        <text x="640" y="34" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#0F172A">System unit fails to POST</text>
+        <text x="640" y="52" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" fill="#64748B">Action: Reseated RAM; replaced bad 8GB stick</text>
+
+        <text x="830" y="36" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12.5" fill="#334155">1x 8GB DDR4 2666MHz</text>
+        <text x="830" y="52" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" fill="#059669">Burn-in diagnostic PASS</text>
+
+        <text x="1010" y="36" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#0F172A">D. Turnos</text>
+        <text x="1010" y="52" font-family="monospace" font-size="11.5" font-weight="700" fill="#047857">₱1,450.00</text>
+
+        <rect x="1170" y="26" width="90" height="24" rx="12" fill="#DCFCE7" stroke="#86EFAC" stroke-width="1"/>
+        <text x="1215" y="42" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#166534" text-anchor="middle">Operational</text>
+      </g>
+
+      <!-- Row 2: LAP-001 -->
+      <g transform="translate(0, 120)">
+        <rect x="0" y="0" width="1300" height="74" fill="#F8FAFC"/>
+        <line x1="0" y1="74" x2="1300" y2="74" stroke="#F1F5F9" stroke-width="1"/>
+        <text x="24" y="42" font-family="monospace" font-size="12" font-weight="700" fill="#0D9488">EH-2024-0074</text>
+        
+        <rect x="140" y="25" width="70" height="26" rx="5" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+        <text x="175" y="42" font-family="monospace" font-size="11.5" font-weight="700" fill="#1D4ED8" text-anchor="middle">LAP-001</text>
+        
+        <text x="240" y="36" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="600" fill="#0F172A">Business Laptop</text>
+        <text x="240" y="52" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" fill="#64748B">Lenovo ThinkPad T14</text>
+
+        <text x="390" y="42" font-family="monospace" font-size="12" fill="#334155">2024-08-19</text>
+        
+        <rect x="500" y="25" width="95" height="26" rx="5" fill="#FEF3C7" stroke="#FDE68A" stroke-width="1"/>
+        <text x="547" y="42" font-family="monospace" font-size="11" font-weight="700" fill="#B45309" text-anchor="middle">JO-2024-061</text>
+
+        <text x="640" y="34" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#0F172A">Slow boot &amp; thermal throttling</text>
+        <text x="640" y="52" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" fill="#64748B">Action: Upgraded SSD; renewed thermal paste</text>
+
+        <text x="830" y="36" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12.5" fill="#334155">512GB M.2 NVMe SSD</text>
+        <text x="830" y="52" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" fill="#059669">Boot time: 11 sec</text>
+
+        <text x="1010" y="36" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#0F172A">D. Turnos</text>
+        <text x="1010" y="52" font-family="monospace" font-size="11.5" font-weight="700" fill="#047857">₱2,200.00</text>
+
+        <rect x="1170" y="26" width="90" height="24" rx="12" fill="#DCFCE7" stroke="#86EFAC" stroke-width="1"/>
+        <text x="1215" y="42" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#166534" text-anchor="middle">Operational</text>
+      </g>
+
+      <!-- Row 3: PTR-001 -->
+      <g transform="translate(0, 194)">
+        <rect x="0" y="0" width="1300" height="74" fill="#FFFFFF"/>
+        <line x1="0" y1="74" x2="1300" y2="74" stroke="#F1F5F9" stroke-width="1"/>
+        <text x="24" y="42" font-family="monospace" font-size="12" font-weight="700" fill="#0D9488">EH-2024-0052</text>
+        
+        <rect x="140" y="25" width="70" height="26" rx="5" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+        <text x="175" y="42" font-family="monospace" font-size="11.5" font-weight="700" fill="#1D4ED8" text-anchor="middle">PTR-001</text>
+        
+        <text x="240" y="36" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="600" fill="#0F172A">Network Laser Printer</text>
+        <text x="240" y="52" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" fill="#64748B">HP LaserJet Pro M404</text>
+
+        <text x="390" y="42" font-family="monospace" font-size="12" fill="#334155">2024-05-04</text>
+        
+        <rect x="500" y="25" width="95" height="26" rx="5" fill="#FEF3C7" stroke="#FDE68A" stroke-width="1"/>
+        <text x="547" y="42" font-family="monospace" font-size="11" font-weight="700" fill="#B45309" text-anchor="middle">JO-2024-038</text>
+
+        <text x="640" y="34" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#0F172A">Frequent paper jams in tray 2</text>
+        <text x="640" y="52" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" fill="#64748B">Action: Cleaned and replaced roller feed kit</text>
+
+        <text x="830" y="36" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12.5" fill="#334155">Pickup Roller Assembly</text>
+        <text x="830" y="52" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" fill="#059669">50-page print test PASS</text>
+
+        <text x="1010" y="36" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#0F172A">D. Turnos</text>
+        <text x="1010" y="52" font-family="monospace" font-size="11.5" font-weight="700" fill="#047857">₱850.00</text>
+
+        <rect x="1170" y="26" width="90" height="24" rx="12" fill="#DCFCE7" stroke="#86EFAC" stroke-width="1"/>
+        <text x="1215" y="42" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#166534" text-anchor="middle">Operational</text>
+      </g>
+
+      <!-- Row 4: SYS-002 -->
+      <g transform="translate(0, 268)">
+        <rect x="0" y="0" width="1300" height="74" fill="#F8FAFC"/>
+        <line x1="0" y1="74" x2="1300" y2="74" stroke="#F1F5F9" stroke-width="1"/>
+        <text x="24" y="42" font-family="monospace" font-size="12" font-weight="700" fill="#0D9488">EH-2024-0041</text>
+        
+        <rect x="140" y="25" width="70" height="26" rx="5" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+        <text x="175" y="42" font-family="monospace" font-size="11.5" font-weight="700" fill="#1D4ED8" text-anchor="middle">SYS-002</text>
+        
+        <text x="240" y="36" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="600" fill="#0F172A">Workstation PC</text>
+        <text x="240" y="52" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" fill="#64748B">Dell OptiPlex 3080</text>
+
+        <text x="390" y="42" font-family="monospace" font-size="12" fill="#334155">2024-03-22</text>
+        
+        <rect x="500" y="25" width="95" height="26" rx="5" fill="#FEF3C7" stroke="#FDE68A" stroke-width="1"/>
+        <text x="547" y="42" font-family="monospace" font-size="11" font-weight="700" fill="#B45309" text-anchor="middle">JO-2024-022</text>
+
+        <text x="640" y="34" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#0F172A">Power supply coil whine / tripping</text>
+        <text x="640" y="52" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" fill="#64748B">Action: Replaced faulty 500W PSU; cleaned intake</text>
+
+        <text x="830" y="36" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12.5" fill="#334155">500W 80-Plus PSU</text>
+        <text x="830" y="52" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" fill="#059669">Voltages calibrated</text>
+
+        <text x="1010" y="36" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#0F172A">D. Turnos</text>
+        <text x="1010" y="52" font-family="monospace" font-size="11.5" font-weight="700" fill="#047857">₱1,800.00</text>
+
+        <rect x="1170" y="26" width="90" height="24" rx="12" fill="#DCFCE7" stroke="#86EFAC" stroke-width="1"/>
+        <text x="1215" y="42" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#166534" text-anchor="middle">Operational</text>
+      </g>
+
+      <!-- Row 5: LAP-002 -->
+      <g transform="translate(0, 342)">
+        <rect x="0" y="0" width="1300" height="74" fill="#FFFFFF"/>
+        <line x1="0" y1="74" x2="1300" y2="74" stroke="#F1F5F9" stroke-width="1"/>
+        <text x="24" y="42" font-family="monospace" font-size="12" font-weight="700" fill="#0D9488">EH-2024-0033</text>
+        
+        <rect x="140" y="25" width="70" height="26" rx="5" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+        <text x="175" y="42" font-family="monospace" font-size="11.5" font-weight="700" fill="#1D4ED8" text-anchor="middle">LAP-002</text>
+        
+        <text x="240" y="36" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="600" fill="#0F172A">Business Laptop</text>
+        <text x="240" y="52" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" fill="#64748B">HP ProBook 450 G8</text>
+
+        <text x="390" y="42" font-family="monospace" font-size="12" fill="#334155">2024-02-14</text>
+        
+        <rect x="500" y="25" width="95" height="26" rx="5" fill="#FEF3C7" stroke="#FDE68A" stroke-width="1"/>
+        <text x="547" y="42" font-family="monospace" font-size="11" font-weight="700" fill="#B45309" text-anchor="middle">JO-2024-015</text>
+
+        <text x="640" y="34" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#0F172A">Display flickering on hinge flex</text>
+        <text x="640" y="52" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" fill="#64748B">Action: Reseated eDP cable; reinforced hinge</text>
+
+        <text x="830" y="36" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12.5" fill="#334155">OEM Display Ribbon</text>
+        <text x="830" y="52" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" fill="#059669">Stress test PASS</text>
+
+        <text x="1010" y="36" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#0F172A">D. Turnos</text>
+        <text x="1010" y="52" font-family="monospace" font-size="11.5" font-weight="700" fill="#047857">₱650.00</text>
+
+        <rect x="1170" y="26" width="90" height="24" rx="12" fill="#DCFCE7" stroke="#86EFAC" stroke-width="1"/>
+        <text x="1215" y="42" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#166534" text-anchor="middle">Operational</text>
+      </g>
+
+      <!-- Table Footer -->
+      <g transform="translate(0, 580)">
+        <rect x="0" y="0" width="1300" height="70" rx="10" fill="#F8FAFC"/>
+        <line x1="0" y1="0" x2="1300" y2="0" stroke="#E2E8F0" stroke-width="1"/>
+        <text x="24" y="38" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12.5" fill="#64748B">
+          Showing <tspan font-weight="700" fill="#0F172A">1 to 5</tspan> of <tspan font-weight="700" fill="#0F172A">48</tspan> equipment service entries · Automated Ingestion from Job Order Completion Trigger
+        </text>
+        <g transform="translate(1120, 20)">
+          <rect x="0" y="0" width="32" height="30" rx="4" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+          <text x="16" y="20" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" fill="#64748B" text-anchor="middle">‹</text>
+          <rect x="38" y="0" width="32" height="30" rx="4" fill="#155D27"/>
+          <text x="54" y="20" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+          <rect x="76" y="0" width="32" height="30" rx="4" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+          <text x="92" y="20" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" fill="#64748B" text-anchor="middle">2</text>
+          <rect x="114" y="0" width="32" height="30" rx="4" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+          <text x="130" y="20" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" fill="#64748B" text-anchor="middle">›</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

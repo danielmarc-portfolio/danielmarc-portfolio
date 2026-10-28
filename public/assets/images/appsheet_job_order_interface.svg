@@ -1,0 +1,322 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="100%" height="100%">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.08"/>
+    </filter>
+    <filter id="card-shadow" x="-3%" y="-3%" width="106%" height="106%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1A73E8"/>
+      <stop offset="100%" stop-color="#1557B0"/>
+    </linearGradient>
+    <linearGradient id="header-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF8C00"/>
+      <stop offset="100%" stop-color="#E07B00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas Background: Clean Modern Studio Background -->
+  <rect width="1600" height="1000" fill="#F8FAFC"/>
+
+  <!-- Google AppSheet Top App Bar -->
+  <rect x="0" y="0" width="1600" height="68" fill="#1E293B"/>
+  
+  <!-- Left Header: AppSheet Brand Mark & App Name -->
+  <g transform="translate(32, 18)">
+    <!-- AppSheet Chevron/Paperplane Icon -->
+    <path d="M0 4 L14 16 L28 4 L28 10 L14 22 L0 10 Z" fill="#60A5FA"/>
+    <path d="M4 0 L14 9 L24 0 Z" fill="#3B82F6"/>
+    <text x="38" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF">Google AppSheet</text>
+    <text x="200" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="400" fill="#94A3B8">|</text>
+    <text x="216" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="600" fill="#F1F5F9">IT Job Order Request</text>
+    <rect x="410" y="5" width="138" height="22" rx="4" fill="#0EA5E9" fill-opacity="0.2"/>
+    <text x="418" y="20" font-family="monospace" font-size="11" font-weight="700" fill="#38BDF8">ISO 9001:2015 QMS</text>
+  </g>
+
+  <!-- Right Header: Sync, Search, Notifications, User Profile -->
+  <g transform="translate(1360, 18)">
+    <!-- Sync Status -->
+    <circle cx="0" cy="16" r="14" fill="#334155"/>
+    <path d="M-6 16 A6 6 0 1 1 0 22 M0 19 L0 22 L3 22" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Search Bar -->
+    <rect x="25" y="0" width="110" height="32" rx="6" fill="#334155"/>
+    <text x="38" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">🔍 Search...</text>
+    
+    <!-- User Avatar -->
+    <circle cx="165" cy="16" r="16" fill="#FF8C00"/>
+    <text x="165" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">DT</text>
+    <text x="190" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#E2E8F0">Daniel Turnos</text>
+  </g>
+
+  <!-- Left Sidebar Navigation Menu -->
+  <rect x="0" y="68" width="240" height="932" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  
+  <!-- Active View Indicator -->
+  <rect x="12" y="86" width="216" height="42" rx="8" fill="#EFF6FF"/>
+  <rect x="12" y="86" width="4" height="42" rx="2" fill="#2563EB"/>
+  <text x="44" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#1D4ED8">📝 New Request Form</text>
+
+  <!-- Nav Item: My Job Orders -->
+  <g transform="translate(12, 138)">
+    <rect x="0" y="0" width="216" height="40" rx="8" fill="transparent"/>
+    <text x="32" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="500" fill="#64748B">📋 My Job Orders</text>
+    <rect x="175" y="10" width="26" height="18" rx="9" fill="#F1F5F9"/>
+    <text x="188" y="23" font-family="monospace" font-size="11" font-weight="700" fill="#64748B" text-anchor="middle">5</text>
+  </g>
+
+  <!-- Nav Item: All Requests (Admin / Technician) -->
+  <g transform="translate(12, 186)">
+    <rect x="0" y="0" width="216" height="40" rx="8" fill="transparent"/>
+    <text x="32" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="500" fill="#64748B">📊 All Dispatches</text>
+    <rect x="170" y="10" width="32" height="18" rx="9" fill="#FEF3C7"/>
+    <text x="186" y="23" font-family="monospace" font-size="11" font-weight="700" fill="#D97706" text-anchor="middle">18</text>
+  </g>
+
+  <!-- Nav Item: Equipment Assets -->
+  <g transform="translate(12, 234)">
+    <rect x="0" y="0" width="216" height="40" rx="8" fill="transparent"/>
+    <text x="32" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="500" fill="#64748B">💻 Asset Inventory (QR)</text>
+  </g>
+
+  <!-- Nav Item: Equipment History -->
+  <g transform="translate(12, 282)">
+    <rect x="0" y="0" width="216" height="40" rx="8" fill="transparent"/>
+    <text x="32" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="500" fill="#64748B">🛠️ Service Logs &amp; History</text>
+  </g>
+
+  <!-- Nav Item: PM Program Matrix -->
+  <g transform="translate(12, 330)">
+    <rect x="0" y="0" width="216" height="40" rx="8" fill="transparent"/>
+    <text x="32" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="500" fill="#64748B">📅 Preventive Schedule</text>
+  </g>
+
+  <!-- AppSheet Cloud Connected Badge -->
+  <g transform="translate(20, 890)">
+    <rect x="0" y="0" width="200" height="74" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="12" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#0F172A">BACKED BY GOOGLE SHEETS</text>
+    <text x="12" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#64748B">Sheet: IT_Job_Order_Master</text>
+    <circle cx="16" cy="58" r="4" fill="#22C55E"/>
+    <text x="26" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#15803D">Live Cloud Sync Active</text>
+  </g>
+
+  <!-- MAIN APPLICATION CONTENT AREA -->
+  <!-- Split View: Left = Interactive Request Form (680px), Right = Live Ticket Queue (620px) -->
+
+  <!-- FORM CONTAINER CARD (LEFT) -->
+  <g transform="translate(268, 88)" filter="url(#card-shadow)">
+    <rect x="0" y="0" width="670" height="880" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    
+    <!-- Form Header Banner -->
+    <path d="M0 12 Q0 0 12 0 L658 0 Q670 0 670 12 L670 76 L0 76 Z" fill="#F8FAFC"/>
+    <line x1="0" y1="76" x2="670" y2="76" stroke="#E2E8F0" stroke-width="1"/>
+    
+    <text x="28" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="800" fill="#0F172A">IT JOB ORDER REQUEST</text>
+    <text x="28" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#64748B">Standardized IT Hardware &amp; System Repair Dispatch (Form ID: FM-IT-001 Rev. 02)</text>
+    
+    <rect x="520" y="24" width="124" height="28" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="582" y="42" font-family="monospace" font-size="12" font-weight="700" fill="#1E293B" text-anchor="middle">JO-2026-0042</text>
+
+    <!-- FORM FIELDS -->
+    <g transform="translate(28, 96)">
+      <!-- Field 1: Requester Name & Department (2-col) -->
+      <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#334155">REQUESTER NAME <tspan fill="#EF4444">*</tspan></text>
+      <rect x="0" y="8" width="295" height="42" rx="6" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+      <text x="14" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#0F172A">Daniel Marc Turnos</text>
+      
+      <text x="315" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#334155">DEPARTMENT <tspan fill="#EF4444">*</tspan></text>
+      <rect x="315" y="8" width="295" height="42" rx="6" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+      <text x="329" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#0F172A">Operations &amp; Engineering</text>
+      <path d="M592 27 L597 32 L602 27" fill="none" stroke="#64748B" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- Field 2: Target Equipment Asset Tag & Location (2-col) -->
+      <g transform="translate(0, 68)">
+        <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#334155">ASSET TAG / DEVICE <tspan fill="#EF4444">*</tspan></text>
+        <rect x="0" y="8" width="295" height="42" rx="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="2"/>
+        <text x="14" y="34" font-family="monospace" font-size="13" font-weight="700" fill="#1D4ED8">EQ-10482 (Dell OptiPlex 7080)</text>
+        <!-- Barcode/Scan icon -->
+        <rect x="258" y="16" width="24" height="24" rx="4" fill="#EFF6FF"/>
+        <text x="270" y="32" font-size="12" text-anchor="middle">📷</text>
+
+        <text x="315" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#334155">OFFICE LOCATION <tspan fill="#EF4444">*</tspan></text>
+        <rect x="315" y="8" width="295" height="42" rx="6" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+        <text x="329" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#0F172A">Malabon Head Office - 2nd Flr</text>
+      </g>
+
+      <!-- Field 3: Issue Category (Enum Chips) -->
+      <g transform="translate(0, 148)">
+        <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#334155">ISSUE CATEGORY <tspan fill="#EF4444">*</tspan></text>
+        
+        <!-- Chip 1: Hardware (Selected) -->
+        <rect x="0" y="10" width="140" height="36" rx="6" fill="#2563EB" stroke="#1D4ED8" stroke-width="1"/>
+        <text x="70" y="33" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">✓ Hardware Fault</text>
+
+        <!-- Chip 2: Network -->
+        <rect x="150" y="10" width="145" height="36" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+        <text x="222" y="33" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="middle">Network / Wi-Fi</text>
+
+        <!-- Chip 3: Software -->
+        <rect x="305" y="10" width="145" height="36" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+        <text x="377" y="33" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="middle">Software &amp; OS</text>
+
+        <!-- Chip 4: Printer -->
+        <rect x="460" y="10" width="150" height="36" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+        <text x="535" y="33" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="middle">Printer / Scanner</text>
+      </g>
+
+      <!-- Field 4: Priority Level (Color Coded Enums) -->
+      <g transform="translate(0, 216)">
+        <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#334155">PRIORITY LEVEL <tspan fill="#EF4444">*</tspan></text>
+        
+        <!-- Low -->
+        <rect x="0" y="10" width="145" height="34" rx="6" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1"/>
+        <text x="72" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#166534" text-anchor="middle">Low (Routine)</text>
+
+        <!-- Medium -->
+        <rect x="155" y="10" width="145" height="34" rx="6" fill="#FEFCE8" stroke="#FEF08A" stroke-width="1"/>
+        <text x="227" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#854D0E" text-anchor="middle">Medium (Standard)</text>
+
+        <!-- High (Selected) -->
+        <rect x="310" y="10" width="145" height="34" rx="6" fill="#EA580C" stroke="#C2410C" stroke-width="1"/>
+        <text x="382" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">★ High (Urgent)</text>
+
+        <!-- Critical -->
+        <rect x="465" y="10" width="145" height="34" rx="6" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+        <text x="537" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#991B1B" text-anchor="middle">Critical (Site Stop)</text>
+      </g>
+
+      <!-- Field 5: Detailed Fault Description -->
+      <g transform="translate(0, 280)">
+        <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#334155">PROBLEM / FAULT DESCRIPTION <tspan fill="#EF4444">*</tspan></text>
+        <rect x="0" y="8" width="610" height="96" rx="6" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+        <text x="14" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#0F172A">System unit powers on with audible continuous beep sequence (3 amber blinks).</text>
+        <text x="14" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#0F172A">Monitor displays no signal. RAM reseating attempted but issue persists.</text>
+        <text x="14" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#475569">Urgent repair requested for morning procurement &amp; tender submission deadline.</text>
+      </g>
+
+      <!-- Field 6: Photo / Diagnostic Attachment -->
+      <g transform="translate(0, 400)">
+        <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#334155">ATTACH PHOTO / ERROR SCREENSHOT (Optional)</text>
+        <rect x="0" y="8" width="610" height="74" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5" stroke-dasharray="4 4"/>
+        <!-- Camera Icon & Text -->
+        <circle cx="210" cy="45" r="14" fill="#E2E8F0"/>
+        <text x="210" y="49" font-size="12" text-anchor="middle">📸</text>
+        <text x="234" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Take Photo or Upload Image</text>
+        <text x="234" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="400" fill="#64748B">JPG, PNG up to 10MB (stored in Google Drive)</text>
+      </g>
+
+      <!-- ISO Audit Traceability Notice -->
+      <g transform="translate(0, 498)">
+        <rect x="0" y="0" width="610" height="54" rx="6" fill="#F0FDF4" stroke="#86EFAC" stroke-width="1"/>
+        <text x="14" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#166534">🔒 ISO 9001:2015 CLAUSE 8.5.2 AUTOMATIC TRACEABILITY</text>
+        <text x="14" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="400" fill="#15803D">Upon save, this ticket will automatically append a permanent maintenance service log to Equipment Tag EQ-10482.</text>
+      </g>
+
+      <!-- FORM ACTIONS -->
+      <g transform="translate(0, 580)">
+        <rect x="0" y="0" width="140" height="46" rx="8" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+        <text x="70" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#475569" text-anchor="middle">Cancel</text>
+
+        <rect x="420" y="0" width="190" height="46" rx="8" fill="#2563EB"/>
+        <text x="515" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">Save &amp; Submit Request ➔</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- LIVE JOB ORDER QUEUE / DECK VIEW (RIGHT) -->
+  <g transform="translate(962, 88)" filter="url(#card-shadow)">
+    <rect x="0" y="0" width="606" height="880" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    
+    <!-- Queue Header -->
+    <path d="M0 12 Q0 0 12 0 L594 0 Q606 0 606 12 L606 64 L0 64 Z" fill="#F8FAFC"/>
+    <line x1="0" y1="64" x2="606" y2="64" stroke="#E2E8F0" stroke-width="1"/>
+    
+    <text x="24" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800" fill="#0F172A">RECENT JOB ORDERS &amp; DISPATCHES</text>
+    <text x="490" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#2563EB">View All (18)</text>
+
+    <!-- Filter Pills -->
+    <g transform="translate(24, 80)">
+      <rect x="0" y="0" width="60" height="26" rx="13" fill="#1E293B"/>
+      <text x="30" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">All (18)</text>
+      
+      <rect x="70" y="0" width="105" height="26" rx="13" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+      <text x="122" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#1D4ED8" text-anchor="middle">In Progress (4)</text>
+
+      <rect x="185" y="0" width="95" height="26" rx="13" fill="#FEF3C7" stroke="#FDE68A" stroke-width="1"/>
+      <text x="232" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#B45309" text-anchor="middle">Pending (2)</text>
+
+      <rect x="290" y="0" width="100" height="26" rx="13" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1"/>
+      <text x="340" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#15803D" text-anchor="middle">Resolved (12)</text>
+    </g>
+
+    <!-- TICKET 1: In Progress -->
+    <g transform="translate(24, 126)">
+      <rect x="0" y="0" width="558" height="120" rx="8" fill="#FFFFFF" stroke="#93C5FD" stroke-width="1.5"/>
+      <rect x="0" y="0" width="6" height="120" rx="3" fill="#2563EB"/>
+      
+      <text x="18" y="24" font-family="monospace" font-size="13" font-weight="800" fill="#1D4ED8">JO-2026-0042</text>
+      <rect x="126" y="10" width="90" height="20" rx="4" fill="#EFF6FF"/>
+      <text x="171" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#1D4ED8" text-anchor="middle">IN PROGRESS</text>
+      
+      <rect x="222" y="10" width="60" height="20" rx="4" fill="#FEF2F2"/>
+      <text x="252" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#B91C1C" text-anchor="middle">HIGH</text>
+
+      <text x="470" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94A3B8">Today 09:30 AM</text>
+
+      <text x="18" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#0F172A">Dell OptiPlex 7080 No Post / Amber Beep Code</text>
+      <text x="18" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#475569">Requester: Daniel Marc Turnos · Operations Dept · Asset EQ-10482</text>
+      <text x="18" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#059669">Assigned Technician: Marc Turnos (Diagnostics on Bench)</text>
+    </g>
+
+    <!-- TICKET 2: Pending Parts -->
+    <g transform="translate(24, 262)">
+      <rect x="0" y="0" width="558" height="120" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <rect x="0" y="0" width="6" height="120" rx="3" fill="#D97706"/>
+      
+      <text x="18" y="24" font-family="monospace" font-size="13" font-weight="800" fill="#0F172A">JO-2026-0041</text>
+      <rect x="126" y="10" width="98" height="20" rx="4" fill="#FEF3C7"/>
+      <text x="175" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#92400E" text-anchor="middle">PENDING PARTS</text>
+      
+      <rect x="230" y="10" width="60" height="20" rx="4" fill="#FEFCE8"/>
+      <text x="260" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#A16207" text-anchor="middle">MEDIUM</text>
+
+      <text x="470" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94A3B8">Yesterday 02:15 PM</text>
+
+      <text x="18" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#0F172A">HP ProBook 450 G8 Battery Swelling &amp; Thermal Throttle</text>
+      <text x="18" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#475569">Requester: Sarah Jenkins · Accounting Dept · Asset LAP-0019</text>
+      <text x="18" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#D97706">Replacement 45Wh 3-cell battery PO requested from procurement</text>
+    </g>
+
+    <!-- TICKET 3: Resolved -->
+    <g transform="translate(24, 398)">
+      <rect x="0" y="0" width="558" height="120" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <rect x="0" y="0" width="6" height="120" rx="3" fill="#16A34A"/>
+      
+      <text x="18" y="24" font-family="monospace" font-size="13" font-weight="800" fill="#0F172A">JO-2026-0040</text>
+      <rect x="126" y="10" width="76" height="20" rx="4" fill="#F0FDF4"/>
+      <text x="164" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#15803D" text-anchor="middle">RESOLVED</text>
+      
+      <rect x="208" y="10" width="60" height="20" rx="4" fill="#F8FAFC"/>
+      <text x="238" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#475569" text-anchor="middle">ROUTINE</text>
+
+      <text x="470" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94A3B8">Oct 24, 2026</text>
+
+      <text x="18" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#0F172A">Network Laser Printer Static IP Rebind &amp; Spooler Clean</text>
+      <text x="18" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#475569">Requester: Alex Delos Reyes · Executive Office · Asset PTR-0004</text>
+      <text x="18" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#15803D">Completed &amp; verified by requester · Service log appended</text>
+    </g>
+
+    <!-- Bottom AppSheet Summary Box -->
+    <g transform="translate(24, 536)">
+      <rect x="0" y="0" width="558" height="90" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="18" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#1E293B">📊 APPSHEET DISPATCH KPI METRICS</text>
+      
+      <text x="18" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">Average Resolution Time: <tspan font-weight="700" fill="#0F172A">3.4 Hours</tspan></text>
+      <text x="18" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">First-Contact Resolution: <tspan font-weight="700" fill="#0F172A">86.2%</tspan></text>
+
+      <text x="280" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">Traceable Asset Rate: <tspan font-weight="700" fill="#15803D">100% (ISO Clause 8.5)</tspan></text>
+      <text x="280" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">Paper Slip Reduction: <tspan font-weight="700" fill="#2563EB">100% Digitalized</tspan></text>
+    </g>
+  </g>
+</svg>

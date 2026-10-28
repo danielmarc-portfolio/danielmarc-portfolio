@@ -1,0 +1,321 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="100%" height="100%">
+  <defs>
+    <filter id="table-shadow-pm" x="-2%" y="-2%" width="104%" height="106%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#0F172A" flood-opacity="0.05"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1600" height="900" fill="#F4F6F8"/>
+
+  <!-- Browser Chrome Top Bar -->
+  <rect x="0" y="0" width="1600" height="42" fill="#E8ECEF" stroke="#D3D9DE" stroke-width="1"/>
+  <circle cx="24" cy="21" r="5.5" fill="#ED6A5E" stroke="#CF5347" stroke-width="0.5"/>
+  <circle cx="42" cy="21" r="5.5" fill="#F5BF4F" stroke="#D7A037" stroke-width="0.5"/>
+  <circle cx="60" cy="21" r="5.5" fill="#62C554" stroke="#48A73C" stroke-width="0.5"/>
+
+  <!-- Active Browser Tab -->
+  <path d="M 86 42 L 96 12 Q 100 8 106 8 L 380 8 Q 386 8 390 12 L 400 42 Z" fill="#FFFFFF"/>
+  <rect x="108" y="16" width="16" height="16" rx="3" fill="#155D27"/>
+  <path d="M 112 24 L 115 19 L 120 27 L 115 25 Z" fill="#FFFFFF"/>
+  <text x="132" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Preventive Maintenance - AppSheet</text>
+  <text x="378" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">×</text>
+
+  <!-- URL Bar -->
+  <rect x="420" y="7" width="810" height="28" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <path d="M 434 16 C 434 14.5 435 13.5 436.5 13.5 C 438 13.5 439 14.5 439 16 L 439 17.5 L 434 17.5 Z M 432.5 17.5 L 440.5 17.5 L 440.5 24 L 432.5 24 Z" fill="#64748B"/>
+  <text x="448" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="12" fill="#475569">
+    <tspan fill="#155D27" font-weight="600">https://</tspan><tspan fill="#0F172A">www.appsheet.com/start/</tspan><tspan fill="#155D27" font-weight="500">it-maintenance-management</tspan><tspan fill="#64748B">#page=Preventive_Maintenance</tspan>
+  </text>
+  <rect x="1140" y="12" width="76" height="18" rx="4" fill="#E8F5E9"/>
+  <text x="1148" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#155D27">SSL SECURE</text>
+
+  <!-- AppSheet Header -->
+  <rect x="0" y="42" width="1600" height="64" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <g transform="translate(24, 52)">
+    <rect x="0" y="0" width="44" height="44" rx="8" fill="#155D27"/>
+    <path d="M 12 28 L 22 14 L 32 28 L 27 28 L 22 20 L 17 28 Z" fill="#A3E635"/>
+    <circle cx="22" cy="14" r="3.5" fill="#FFFFFF"/>
+    <circle cx="12" cy="28" r="3" fill="#FFFFFF"/>
+    <circle cx="32" cy="28" r="3" fill="#FFFFFF"/>
+    <text x="56" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="800" fill="#0F172A">
+      IT Maintenance Management
+    </text>
+    <text x="56" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#155D27" letter-spacing="0.04em">
+      PREVENTIVE MAINTENANCE PROGRAM · SCHEDULE MATRIX · ISO 9001:2015
+    </text>
+  </g>
+
+  <!-- Header Right -->
+  <g transform="translate(1120, 56)">
+    <rect x="0" y="4" width="148" height="30" rx="15" fill="#F0FDF4" stroke="#86EFAC" stroke-width="1"/>
+    <circle cx="14" cy="19" r="4.5" fill="#16A34A"/>
+    <path d="M 24 16 L 27 19 L 32 14" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="36" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#166534">Sheets Synced</text>
+
+    <rect x="160" y="2" width="160" height="34" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="174" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">🔍 Search PM matrix...</text>
+
+    <circle cx="348" cy="19" r="17" fill="#155D27"/>
+    <text x="348" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">DT</text>
+    <text x="374" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Daniel Turnos</text>
+    <text x="374" y="31" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#64748B">IT Administrator</text>
+  </g>
+
+  <!-- Navigation Sidebar -->
+  <rect x="0" y="106" width="250" height="794" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="24" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#94A3B8" letter-spacing="0.08em">
+    MAIN NAVIGATION
+  </text>
+
+  <!-- Nav Item 1: Job Order Request -->
+  <g transform="translate(14, 154)">
+    <rect x="0" y="0" width="222" height="42" rx="8" fill="transparent"/>
+    <rect x="12" y="11" width="20" height="20" rx="4" fill="#F1F5F9"/>
+    <path d="M 17 21 L 27 21 M 17 17 L 27 17 M 17 25 L 23 25" stroke="#475569" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="42" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#334155">Job Order Request</text>
+  </g>
+
+  <!-- Nav Item 2: Job Orders -->
+  <g transform="translate(14, 204)">
+    <rect x="0" y="0" width="222" height="42" rx="8" fill="transparent"/>
+    <rect x="12" y="11" width="20" height="20" rx="4" fill="#F1F5F9"/>
+    <rect x="16" y="15" width="12" height="12" rx="2" fill="none" stroke="#475569" stroke-width="1.8"/>
+    <text x="42" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#334155">Job Orders</text>
+    <rect x="180" y="13" width="28" height="18" rx="9" fill="#FEF3C7"/>
+    <text x="194" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="middle">12</text>
+  </g>
+
+  <!-- Nav Item 3: Equipment History -->
+  <g transform="translate(14, 254)">
+    <rect x="0" y="0" width="222" height="42" rx="8" fill="transparent"/>
+    <rect x="12" y="11" width="20" height="20" rx="4" fill="#F1F5F9"/>
+    <path d="M 18 16 A 5 5 0 1 1 16 23 M 16 20 L 16 23 L 19 23" fill="none" stroke="#475569" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="42" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#334155">Equipment History</text>
+    <rect x="180" y="13" width="28" height="18" rx="9" fill="#F1F5F9"/>
+    <text x="194" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="10.5" font-weight="700" fill="#64748B" text-anchor="middle">48</text>
+  </g>
+
+  <!-- Nav Item 4: IT Asset Inventory -->
+  <g transform="translate(14, 304)">
+    <rect x="0" y="0" width="222" height="42" rx="8" fill="transparent"/>
+    <rect x="12" y="11" width="20" height="20" rx="4" fill="#F1F5F9"/>
+    <rect x="16" y="15" width="12" height="10" rx="1.5" fill="none" stroke="#475569" stroke-width="1.5"/>
+    <text x="42" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#334155">IT Asset Inventory</text>
+  </g>
+
+  <!-- Nav Item 5: Preventive Maintenance (ACTIVE) -->
+  <g transform="translate(14, 354)">
+    <rect x="0" y="0" width="222" height="46" rx="8" fill="#E8F5E9" stroke="#A7F3D0" stroke-width="1"/>
+    <rect x="0" y="6" width="4" height="34" rx="2" fill="#155D27"/>
+    <rect x="12" y="11" width="24" height="24" rx="5" fill="#155D27"/>
+    <rect x="16" y="15" width="16" height="11" rx="1.5" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="16" y1="19" x2="32" y2="19" stroke="#FFFFFF" stroke-width="1.5"/>
+    <text x="46" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#0D652D">Preventive Maintenance</text>
+    <rect x="180" y="14" width="28" height="18" rx="9" fill="#155D27"/>
+    <text x="194" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">10</text>
+  </g>
+
+  <!-- Sidebar Bottom Callout -->
+  <g transform="translate(16, 730)">
+    <rect x="0" y="0" width="218" height="146" rx="10" fill="#FFFBEB" stroke="#FDE68A" stroke-width="1"/>
+    <text x="14" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="800" fill="#92400E" letter-spacing="0.06em">PROCESS SEPARATION</text>
+    <text x="14" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#78350F">Routine PM ≠ Job Order</text>
+    <text x="14" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#92400E" font-style="italic">
+      Routine PM stays on schedule matrix. Only detected broken parts escalate to corrective Job Orders.
+    </text>
+    <rect x="14" y="112" width="190" height="22" rx="4" fill="#F59E0B" fill-opacity="0.15"/>
+    <text x="22" y="127" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#B45309">ISO 9001:2015 Clause 8.5.1</text>
+  </g>
+
+  <!-- Main Content Area -->
+  <g transform="translate(274, 126)">
+    <!-- Top Action and Filter Bar -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="800" fill="#0F172A">
+        Preventive Maintenance Program &amp; Cadence Matrix
+      </text>
+      <text x="0" y="46" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="500" fill="#64748B">
+        Periodic IT inspection schedule governing hardware reliability, dust prevention, and routine diagnostic checks.
+      </text>
+
+      <!-- Right Action Controls -->
+      <g transform="translate(860, 0)">
+        <rect x="0" y="6" width="170" height="36" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+        <text x="16" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#334155">Cadence: All Cycles ▾</text>
+
+        <rect x="180" y="6" width="190" height="36" rx="6" fill="#155D27"/>
+        <text x="200" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">+ Log PM Checkpoint</text>
+      </g>
+    </g>
+
+    <!-- Table Container -->
+    <g transform="translate(0, 72)" filter="url(#table-shadow-pm)">
+      <rect x="0" y="0" width="1300" height="650" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+
+      <!-- Table Header -->
+      <rect x="0" y="0" width="1300" height="46" rx="10" fill="#F8FAFC"/>
+      <rect x="0" y="36" width="1300" height="10" fill="#F8FAFC"/>
+      <line x1="0" y1="46" x2="1300" y2="46" stroke="#E2E8F0" stroke-width="1.2"/>
+
+      <text x="24" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#475569">PM CODE</text>
+      <text x="130" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#475569">EQUIPMENT TYPE</text>
+      <text x="290" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#475569">FREQUENCY</text>
+      <text x="410" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#475569">MAINTENANCE SCOPE &amp; CHECKLIST</text>
+      <text x="740" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#475569">TARGET ASSETS</text>
+      <text x="910" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#475569">STATUS</text>
+      <text x="1060" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#475569">ESCALATION / LINK</text>
+
+      <!-- Row 1: PM 01 -->
+      <g transform="translate(0, 46)">
+        <rect x="0" y="0" width="1300" height="74" fill="#FFFFFF"/>
+        <line x1="0" y1="74" x2="1300" y2="74" stroke="#F1F5F9" stroke-width="1"/>
+        <rect x="24" y="24" width="70" height="26" rx="5" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1"/>
+        <text x="59" y="41" font-family="monospace" font-size="12" font-weight="700" fill="#166534" text-anchor="middle">PM 01</text>
+        
+        <text x="130" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#0F172A">Workstation PC (SYS)</text>
+        <text x="130" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">Desktop Towers</text>
+
+        <rect x="290" y="25" width="80" height="24" rx="12" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+        <text x="330" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#1E40AF" text-anchor="middle">Quarterly</text>
+
+        <text x="410" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#0F172A">Chassis interior dust blow; CPU thermal paste refresh</text>
+        <text x="410" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">Fan bearings inspection, RAM contact clean, cable routing</text>
+
+        <text x="740" y="36" font-family="monospace" font-size="12" fill="#0F172A">SYS-001 – SYS-025</text>
+        <text x="740" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">25 active units</text>
+
+        <rect x="910" y="25" width="120" height="25" rx="12" fill="#DCFCE7" stroke="#86EFAC" stroke-width="1"/>
+        <text x="970" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#166534" text-anchor="middle">Completed - Normal</text>
+
+        <text x="1060" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#64748B">Routine PM (No JO)</text>
+        <text x="1060" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#155D27">Logged on PM Chart</text>
+      </g>
+
+      <!-- Row 2: PM 02 -->
+      <g transform="translate(0, 120)">
+        <rect x="0" y="0" width="1300" height="74" fill="#F8FAFC"/>
+        <line x1="0" y1="74" x2="1300" y2="74" stroke="#F1F5F9" stroke-width="1"/>
+        <rect x="24" y="24" width="70" height="26" rx="5" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1"/>
+        <text x="59" y="41" font-family="monospace" font-size="12" font-weight="700" fill="#166534" text-anchor="middle">PM 02</text>
+        
+        <text x="130" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#0F172A">Business Laptop (LAP)</text>
+        <text x="130" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">Mobile Workstations</text>
+
+        <rect x="290" y="25" width="80" height="24" rx="12" fill="#F3E8FF" stroke="#D8B4FE" stroke-width="1"/>
+        <text x="330" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#6B21A8" text-anchor="middle">Monthly</text>
+
+        <text x="410" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#0F172A">Battery capacity calibration; SSD SMART health audit</text>
+        <text x="410" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">Keyboard/port cleaning, OS patches, Antivirus definitions</text>
+
+        <text x="740" y="36" font-family="monospace" font-size="12" fill="#0F172A">LAP-001 – LAP-015</text>
+        <text x="740" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">15 active laptops</text>
+
+        <rect x="910" y="25" width="120" height="25" rx="12" fill="#FEF3C7" stroke="#FDE68A" stroke-width="1"/>
+        <text x="970" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#B45309" text-anchor="middle">In Progress</text>
+
+        <text x="1060" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#64748B">Routine PM (No JO)</text>
+        <text x="1060" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">11/15 Completed</text>
+      </g>
+
+      <!-- Row 3: PM 03 -->
+      <g transform="translate(0, 194)">
+        <rect x="0" y="0" width="1300" height="74" fill="#FFFFFF"/>
+        <line x1="0" y1="74" x2="1300" y2="74" stroke="#F1F5F9" stroke-width="1"/>
+        <rect x="24" y="24" width="70" height="26" rx="5" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1"/>
+        <text x="59" y="41" font-family="monospace" font-size="12" font-weight="700" fill="#166534" text-anchor="middle">PM 03</text>
+        
+        <text x="130" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#0F172A">Network Printer (PTR)</text>
+        <text x="130" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">Laser &amp; Inkjet Printers</text>
+
+        <rect x="290" y="25" width="80" height="24" rx="12" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+        <text x="330" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#1E40AF" text-anchor="middle">Quarterly</text>
+
+        <text x="410" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#0F172A">Pickup roller degreasing; test page diagnostic &amp; alignment</text>
+        <text x="410" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">Toner waste box check, paper path cleaning, firmware update</text>
+
+        <text x="740" y="36" font-family="monospace" font-size="12" fill="#0F172A">PTR-001 – PTR-008</text>
+        <text x="740" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">8 shared printers</text>
+
+        <rect x="910" y="25" width="120" height="25" rx="12" fill="#DCFCE7" stroke="#86EFAC" stroke-width="1"/>
+        <text x="970" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#166534" text-anchor="middle">Completed - Normal</text>
+
+        <text x="1060" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#64748B">Routine PM (No JO)</text>
+        <text x="1060" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#155D27">All rollers clear</text>
+      </g>
+
+      <!-- Row 4: PM 05 (Defect Escalation Demo) -->
+      <g transform="translate(0, 268)">
+        <rect x="0" y="0" width="1300" height="74" fill="#FEF2F2"/>
+        <line x1="0" y1="74" x2="1300" y2="74" stroke="#FEE2E2" stroke-width="1"/>
+        <rect x="24" y="24" width="70" height="26" rx="5" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+        <text x="59" y="41" font-family="monospace" font-size="12" font-weight="700" fill="#DC2626" text-anchor="middle">PM 05</text>
+        
+        <text x="130" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#991B1B">CCTV &amp; Surveillance</text>
+        <text x="130" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#7F1D1D">Head Office Cameras</text>
+
+        <rect x="290" y="25" width="80" height="24" rx="12" fill="#F3E8FF" stroke="#D8B4FE" stroke-width="1"/>
+        <text x="330" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#6B21A8" text-anchor="middle">Monthly</text>
+
+        <text x="410" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#991B1B">Dome lens clean &amp; focus; NVR storage RAID integrity test</text>
+        <text x="410" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#DC2626">DEFECT FOUND: CAM-04 IR cut filter sticking on night mode</text>
+
+        <text x="740" y="36" font-family="monospace" font-size="12" fill="#0F172A">CCTV-01 – CCTV-16</text>
+        <text x="740" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#DC2626">Unit CAM-04 Failed</text>
+
+        <rect x="910" y="25" width="120" height="25" rx="12" fill="#FEE2E2" stroke="#FCA5A5" stroke-width="1"/>
+        <text x="970" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#B91C1C" text-anchor="middle">Defect Escalated</text>
+
+        <!-- Corrective JO Link -->
+        <rect x="1060" y="25" width="100" height="24" rx="5" fill="#FEF3C7" stroke="#FDE68A" stroke-width="1"/>
+        <text x="1110" y="41" font-family="monospace" font-size="11" font-weight="700" fill="#B45309" text-anchor="middle">JO-2024-098</text>
+        <text x="1170" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#DC2626">Corrective Ticket</text>
+      </g>
+
+      <!-- Row 5: PM 06 -->
+      <g transform="translate(0, 342)">
+        <rect x="0" y="0" width="1300" height="74" fill="#FFFFFF"/>
+        <line x1="0" y1="74" x2="1300" y2="74" stroke="#F1F5F9" stroke-width="1"/>
+        <rect x="24" y="24" width="70" height="26" rx="5" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1"/>
+        <text x="59" y="41" font-family="monospace" font-size="12" font-weight="700" fill="#166534" text-anchor="middle">PM 06</text>
+        
+        <text x="130" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#0F172A">UPS Power Backup</text>
+        <text x="130" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">Server &amp; Workstation UPS</text>
+
+        <rect x="290" y="25" width="80" height="24" rx="12" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+        <text x="330" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#1E40AF" text-anchor="middle">Quarterly</text>
+
+        <text x="410" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#0F172A">Battery load discharge test; AVR output voltage calibration</text>
+        <text x="410" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">Audible alarm verification, terminal cleaning, runtime check</text>
+
+        <text x="740" y="36" font-family="monospace" font-size="12" fill="#0F172A">UPS-001 – UPS-010</text>
+        <text x="740" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">10 units tested</text>
+
+        <rect x="910" y="25" width="120" height="25" rx="12" fill="#DCFCE7" stroke="#86EFAC" stroke-width="1"/>
+        <text x="970" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#166534" text-anchor="middle">Completed - Normal</text>
+
+        <text x="1060" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#64748B">Routine PM (No JO)</text>
+        <text x="1060" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#155D27">Batt Runtime: 18 min</text>
+      </g>
+
+      <!-- Table Footer -->
+      <g transform="translate(0, 580)">
+        <rect x="0" y="0" width="1300" height="70" rx="10" fill="#F8FAFC"/>
+        <line x1="0" y1="0" x2="1300" y2="0" stroke="#E2E8F0" stroke-width="1"/>
+        <text x="24" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#64748B">
+          Showing <tspan font-weight="700" fill="#0F172A">5 of 10</tspan> PM Cadence Protocols · Strict Process Rule: Routine Inspections Logged on Matrix Only
+        </text>
+        <g transform="translate(1120, 20)">
+          <rect x="0" y="0" width="32" height="30" rx="4" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+          <text x="16" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B" text-anchor="middle">‹</text>
+          <rect x="38" y="0" width="32" height="30" rx="4" fill="#155D27"/>
+          <text x="54" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+          <rect x="76" y="0" width="32" height="30" rx="4" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+          <text x="92" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B" text-anchor="middle">2</text>
+          <rect x="114" y="0" width="32" height="30" rx="4" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+          <text x="130" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B" text-anchor="middle">›</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
