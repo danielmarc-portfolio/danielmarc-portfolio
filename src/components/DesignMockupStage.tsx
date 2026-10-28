@@ -10,8 +10,14 @@ export const DesignMockupStage: React.FC<DesignMockupStageProps> = ({
   sample,
   allSamples,
 }) => {
-  const findSampleImage = (id: string, fallback: string) =>
-    allSamples.find((s) => s.id === id)?.image || fallback;
+  const baseUrl = (import.meta.env?.BASE_URL || '/').replace(/\/$/, '');
+  const findSampleImage = (id: string, fallback: string) => {
+    const resolvedFallback =
+      baseUrl && baseUrl !== '.' && fallback.startsWith('/assets/')
+        ? `${baseUrl}${fallback}`
+        : fallback;
+    return allSamples.find((s) => s.id === id)?.image || resolvedFallback;
+  };
 
   // Companion images for paired multi-surface mockups
   const imccIdFront = findSampleImage(

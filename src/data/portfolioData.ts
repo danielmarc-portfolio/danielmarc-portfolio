@@ -1435,3 +1435,25 @@ export const workPrinciples: WorkPrinciple[] = [
     ],
   },
 ];
+
+// Automatically prefix root-relative '/assets/' paths with Vite's BASE_URL when deployed to a subpath (e.g., '/danielmarc-portfolio/')
+const baseUrl = (import.meta.env?.BASE_URL || '/').replace(/\/$/, '');
+if (baseUrl && baseUrl !== '.') {
+  const resolveAssetPath = (p: string) => (p.startsWith('/assets/') ? `${baseUrl}${p}` : p);
+  itProjects.forEach((proj) => {
+    proj.image = resolveAssetPath(proj.image);
+    proj.additionalImages?.forEach((img) => {
+      img.image = resolveAssetPath(img.image);
+    });
+    if (proj.manualFormUsed) {
+      proj.manualFormUsed.image = resolveAssetPath(proj.manualFormUsed.image);
+    }
+  });
+  designSamples.forEach((sample) => {
+    sample.image = resolveAssetPath(sample.image);
+    sample.additionalImages?.forEach((img) => {
+      img.image = resolveAssetPath(img.image);
+    });
+  });
+}
+
