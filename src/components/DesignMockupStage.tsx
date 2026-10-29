@@ -24,7 +24,7 @@ export const DesignMockupStage: React.FC<DesignMockupStageProps> = ({
   // Companion images for paired multi-surface mockups
   const imccIdFront = findSampleImage(
     'imcc-id-front',
-    '/assets/aistudio/IMCC_ID__Front__1607e6bb.jpg'
+    '/assets/aistudio/im-id_e58d3721.jpg'
   );
   const imccIdBack = findSampleImage(
     'imcc-id-back',

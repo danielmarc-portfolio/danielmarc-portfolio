@@ -35,7 +35,7 @@ export const DesignSamplesSection: React.FC<DesignSamplesSectionProps> = ({
 }) => {
   const [selectedCategory, setSelectedCategory] = useState<DesignCategoryType>('Logo and Brand Identity');
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [viewMode, setViewMode] = useState<'mockup' | 'flat'>('mockup');
+  const [viewMode, setViewMode] = useState<'mockup' | 'flat'>('flat');
 
   const getCategorySamples = (cat: DesignCategoryType, mode: 'mockup' | 'flat'): DesignSample[] => {
     const baseSamples = designSamples.filter((sample) => sample.category === cat);
@@ -172,20 +172,8 @@ export const DesignSamplesSection: React.FC<DesignSamplesSectionProps> = ({
 
             {/* Presentation View Toggle & Manual Slide Navigation Buttons */}
             <div className="flex items-center gap-2 flex-wrap">
-              {/* Mockup vs. Flat Artwork View Switcher */}
+              {/* Original File vs. Realistic Mockup View Switcher */}
               <div className="inline-flex items-center bg-zinc-200/70 p-0.5 rounded-lg border border-zinc-300/80 mr-1">
-                <button
-                  type="button"
-                  onClick={() => handleViewModeChange('mockup')}
-                  className={`inline-flex items-center gap-1.5 px-2.5 py-1 text-xs font-semibold rounded-md transition-all cursor-pointer ${
-                    viewMode === 'mockup'
-                      ? 'bg-white text-zinc-900 shadow-2xs'
-                      : 'text-zinc-600 hover:text-zinc-900'
-                  }`}
-                >
-                  <Layers className="w-3.5 h-3.5 text-emerald-700" />
-                  <span>Realistic Mockup</span>
-                </button>
                 <button
                   type="button"
                   onClick={() => handleViewModeChange('flat')}
@@ -197,6 +185,18 @@ export const DesignSamplesSection: React.FC<DesignSamplesSectionProps> = ({
                 >
                   <ImageIcon className="w-3.5 h-3.5 text-zinc-600" />
                   <span>Original File</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => handleViewModeChange('mockup')}
+                  className={`inline-flex items-center gap-1.5 px-2.5 py-1 text-xs font-semibold rounded-md transition-all cursor-pointer ${
+                    viewMode === 'mockup'
+                      ? 'bg-white text-zinc-900 shadow-2xs'
+                      : 'text-zinc-600 hover:text-zinc-900'
+                  }`}
+                >
+                  <Layers className="w-3.5 h-3.5 text-emerald-700" />
+                  <span>Realistic Mockup</span>
                 </button>
               </div>
 
